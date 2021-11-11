@@ -1,0 +1,10 @@
+{
+    "centreBackupLogoPath": "../../assets/images/Logo_DAFNE_white.png",
+    "centreLogoPath": "../../assets/images/centre_logo.png",
+    "mapSettings": {
+        "textSize": 12,
+        "iconSize": 30
+    },
+    "apiUrl": "<back-end-url>",
+    "version": "1.0.0"
+}
