@@ -1,6 +1,6 @@
 {
     "centreBackupLogoPath": "../../assets/images/Logo_DAFNE_white.png",
-    "centreLogoPath": "../../assets/images/centre_logo.png",
+    "centreLogoPath": "",
     "mapSettings": {
         "textSize": 12,
         "iconSize": 30
