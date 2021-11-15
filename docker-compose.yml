@@ -10,6 +10,8 @@ services:
       - "4200:80"
     networks:
       - dafne
+    volumes:
+      - /data/dafne/front-end/config:/usr/local/apache2/htdocs/assets/config
     depends_on:
       - be
   be:
