@@ -27,7 +27,7 @@ echo "Create directory for release $version..."
 echo "mkdir -p /data/dafne_${version} "
 mkdir -p /data/dafne_${version}
 
-echo "Create create new symbolic link..."
+echo "Create new symbolic link..."
 
 echo "ln -s  /data/dafne_${version} /data/dafne"
 ln -s  /data/dafne_${version} /data/dafne
