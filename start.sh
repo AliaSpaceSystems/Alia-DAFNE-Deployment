@@ -6,7 +6,7 @@ echo "  *                            Welcome to the DAFNE                       
 echo "  *                                                                               *"
 echo "  *********************************************************************************"
 
-echo "  Starting ONDA User Portal..."
+echo "  Starting DAFNE..."
 docker-compose up -d
 echo "  Application started"
 
