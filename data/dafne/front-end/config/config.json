@@ -6,7 +6,7 @@
         "iconSize": 30
     },
     "apiUrl": "<back-end-url>",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "satelliteList": [
         {
             "name": "Sentinel-1",
