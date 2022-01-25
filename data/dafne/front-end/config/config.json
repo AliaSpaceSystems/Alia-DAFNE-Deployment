@@ -64,7 +64,7 @@
         ]
       },
       {
-        "name": "Sentinel-5p",
+        "name": "Sentinel-5P",
         "acronym": "S5P",
         "productType": [
           "L1B_RA_BD1",
