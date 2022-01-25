@@ -7,7 +7,7 @@ services:
     restart: always
     build: .
     ports:
-      - "4200:80"
+      - "8080:80"
     networks:
       - dafne
     volumes:
@@ -38,19 +38,19 @@ services:
   # uncomment the following lines to use a dockerized image of the DAFNE database
   #  depends_on:
   #    - db
-  # db:
-  #   container_name: dafne_db
-  #   hostname: dafne_db
-  #   restart: always
-  #   image: "library/postgres:12.5"
-  #   env_file:
-  #     - /data/dafne/back-end/config/db_credentials.env
-  #   networks:
-  #     - dafne
-  #   ports:
-  #     - "5432:5432"
-  #   volumes:
-  #     - /data/dafne-db/:/var/lib/postgresql/data
+  #db:
+  #  container_name: dafne_db
+  #  hostname: dafne_db
+  #  restart: always
+  #  image: "library/postgres:12.5"
+  #  env_file:
+  #    - /data/dafne/back-end/config/db_credentials.env
+  #  networks:
+  #    - dafne
+  #  ports:
+  #    - "5432:5432"
+  #  volumes:
+  #    - /data/dafne-db/:/var/lib/postgresql/data
 networks:
     dafne:
       driver: bridge
