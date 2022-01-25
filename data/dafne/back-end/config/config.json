@@ -31,5 +31,5 @@
 	"requestTimeout": 30000,
 	"dataSourceStatus": ["RUNNING", "PENDING"],
 	"version": "1.0.4",
-    "port": 2000
+  "port": 2000
 }
